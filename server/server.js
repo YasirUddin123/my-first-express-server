@@ -11,7 +11,7 @@ const app = express();
     // aka "the client-side" files
     // aka "static assets"
     // aka "all the stuff we've been happily doing already"
-app.use(express.static('./static/public'));
+app.use(express.static('./server/public'));
 
 // Starts the server, and listens for requests:
 app.listen(5000, function() {
